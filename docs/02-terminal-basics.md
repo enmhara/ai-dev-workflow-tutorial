@@ -9,8 +9,8 @@ The terminal (also called command line or CLI) is a text-based interface for int
 Cursor has a built-in terminal that you will use throughout this tutorial:
 
 1. Open Cursor
-2. Press `` Ctrl+` `` (backtick key, usually below Escape)
-3. Or go to **View** → **Terminal**
+2. Go to **Terminal** → **New Terminal** from the menu bar
+3. Or press `` Ctrl+` `` (backtick key, usually below Escape)
 
 The terminal appears at the bottom of the Cursor window.
 
