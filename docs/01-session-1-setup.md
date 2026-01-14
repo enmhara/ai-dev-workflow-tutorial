@@ -170,6 +170,8 @@ After the setup wizard, you will see the "Welcome to Cursor" sign up screen. Cre
 - Click **Continue with Apple**
 - Or enter your email and click **Continue**
 
+Follow the instructions on the screen to complete sign up. You may be asked to enter a verification code sent to your email.
+
 If you already have a Cursor account, sign in instead.
 
 **Checkpoint:** You should be able to open Cursor and see the welcome screen or an empty editor.
