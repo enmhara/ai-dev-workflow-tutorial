@@ -8,6 +8,20 @@ This PRD outlines the requirements for an analytics platform that provides real-
 
 ---
 
+## Terminology
+
+If you're new to analytics or dashboards, here are key terms used in this document:
+
+| Term | Definition |
+|------|------------|
+| **KPI** | Key Performance Indicator — a metric that shows important business data at a glance (e.g., Total Sales, Total Orders) |
+| **Dashboard** | A visual display showing multiple charts and metrics on one screen |
+| **Streamlit** | A Python library that turns Python code into interactive web applications without needing HTML/CSS |
+| **CSV** | Comma-Separated Values — a simple file format for storing data in rows and columns (like a spreadsheet) |
+| **PRD** | Product Requirements Document — this document, which describes what needs to be built |
+
+---
+
 ## Problem Statement
 
 ### Current Situation
@@ -219,6 +233,55 @@ The sales data file contains transaction records with the following structure:
 │                    Data Source (CSV File)                    │
 │                    data/sales-data.csv                       │
 └─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Expected Output
+
+When the dashboard is complete and running with the sample data, you should see approximately:
+
+| Metric | Expected Value |
+|--------|----------------|
+| Total Sales | ~$650,000 - $700,000 |
+| Total Orders | 482 |
+| Top Category | Electronics or Audio (varies) |
+| Regions Shown | North, South, East, West |
+
+**Dashboard Layout:**
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│             SHOPMART SALES DASHBOARD                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│   ┌─────────────────┐    ┌─────────────────┐               │
+│   │  TOTAL SALES    │    │  TOTAL ORDERS   │               │
+│   │   $XXX,XXX      │    │      482        │               │
+│   └─────────────────┘    └─────────────────┘               │
+│                                                             │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│   Sales Trend Over Time (Line Chart)                        │
+│   ▲                                                         │
+│   │    ╱╲    ╱╲                                             │
+│   │   ╱  ╲  ╱  ╲   ╱                                        │
+│   │  ╱    ╲╱    ╲ ╱                                         │
+│   └──────────────────────────────────────────►              │
+│     Jan  Feb  Mar  Apr  May  Jun  Jul ...                   │
+│                                                             │
+├──────────────────────────┬──────────────────────────────────┤
+│                          │                                  │
+│   Sales by Category      │   Sales by Region                │
+│   (Bar Chart)            │   (Bar Chart)                    │
+│                          │                                  │
+│   Electronics ████████   │   North  ██████                  │
+│   Audio       ██████     │   South  █████                   │
+│   Wearables   █████      │   East   █████                   │
+│   Smart Home  ████       │   West   ████                    │
+│   Accessories ███        │                                  │
+│                          │                                  │
+└──────────────────────────┴──────────────────────────────────┘
 ```
 
 ---

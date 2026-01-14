@@ -224,6 +224,24 @@ Start from the root of your file system. They work from anywhere.
 C:\Users\alex\projects\my-app
 ```
 
+### Windows Path Notes
+
+Windows paths use backslashes (`\`) while macOS/Linux use forward slashes (`/`).
+
+**In PowerShell, forward slashes usually work too:**
+```powershell
+cd C:/Users/alex/projects    # Works in PowerShell
+cd C:\Users\alex\projects    # Also works
+```
+
+**Common Windows paths:**
+| Location | Path |
+|----------|------|
+| Home folder | `C:\Users\YourName` |
+| Desktop | `C:\Users\YourName\Desktop` |
+| Documents | `C:\Users\YourName\Documents` |
+| GitHub folder | `C:\Users\YourName\GitHub` |
+
 ### Relative Paths
 
 Start from your current location.
@@ -260,6 +278,17 @@ cd Doc[TAB]
 If multiple matches exist, press `Tab` twice to see options.
 
 **This saves time and prevents typos!**
+
+### Tab Completion with Git
+
+Tab completion also works with Git commands and branch names:
+
+```bash
+git checkout feat[TAB]
+# Completes to: git checkout feature/ECOM-1-add-sales-dashboard
+```
+
+**Tip:** When working with long branch names like `feature/ECOM-1-add-sales-dashboard`, always use Tab completion instead of typing the full name. This prevents typos that cause errors.
 
 ## Command History
 

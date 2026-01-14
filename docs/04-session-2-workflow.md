@@ -4,6 +4,7 @@ This session covers the complete development workflow: from connecting Claude Co
 
 ## Table of Contents
 
+- [Before You Begin: Prerequisites Check](#before-you-begin-prerequisites-check)
 - [1. Connect Claude Code to Jira](#1-connect-claude-code-to-jira)
   - [1.1 Add Atlassian MCP Server](#11-add-atlassian-mcp-server)
 - [2. Spec-Kit Workflow](#2-spec-kit-workflow)
@@ -31,6 +32,32 @@ This session covers the complete development workflow: from connecting Claude Co
 - [9. Session 2 Verification](#9-session-2-verification)
 - [The Complete Workflow](#the-complete-workflow)
 - [What's Next](#whats-next)
+
+---
+
+## Before You Begin: Prerequisites Check
+
+Before starting Session 2, verify your Session 1 setup is working. Run these commands in Cursor's terminal:
+
+```bash
+# Check Git is installed
+git --version
+# Expected: git version 2.x.x
+
+# Check Python is installed
+python --version
+# Expected: Python 3.11.x or higher
+
+# Check you're in the tutorial project
+ls data/sales-data.csv
+# Expected: data/sales-data.csv (file exists)
+
+# Check Claude Code is installed
+claude --version
+# Expected: Claude Code version information
+```
+
+**If any command fails**, return to [Session 1: Setup](01-session-1-setup.md) to fix the issue before continuing.
 
 ---
 
@@ -387,7 +414,18 @@ pip install streamlit pandas plotly
 pip freeze > requirements.txt
 ```
 
+**How do I know the virtual environment is activated?**
+
+When the virtual environment is active, you will see `(venv)` at the beginning of your terminal prompt:
+
+```
+(venv) $ _
+```
+
+If you don't see `(venv)`, run the activation command again (see Manual steps above).
+
 **Checkpoint:**
+- Your terminal prompt shows `(venv)` prefix
 - A `venv` folder exists in your project
 - Running `pip list` shows streamlit, pandas, and plotly installed
 - A `requirements.txt` file exists
@@ -435,7 +473,20 @@ streamlit run app.py
 
 (Replace `app.py` with wherever Claude placed the dashboard file)
 
-This will open your browser with the running dashboard.
+**What you should see:**
+
+1. In the terminal, Streamlit shows:
+   ```
+   You can now view your Streamlit app in your browser.
+
+   Local URL: http://localhost:8501
+   ```
+
+2. Your browser should open automatically. If it doesn't, open http://localhost:8501 manually.
+
+3. The dashboard should display your KPIs and charts.
+
+**To stop the dashboard:** Press `Ctrl+C` in the terminal.
 
 **Checkpoint:** The dashboard runs and displays KPIs and charts.
 
@@ -507,6 +558,15 @@ Now save your work with a Git commit.
 
 ### 6.2 Create the Commit
 
+**Commit Message Format:**
+
+Always format commit messages as: `ISSUE-KEY: description`
+
+| Part | Example | Rule |
+|------|---------|------|
+| Issue key | `ECOM-1:` | Uppercase, followed by colon and space |
+| Description | `add sales dashboard` | Lowercase, present tense verb (add, fix, update) |
+
 **Steps:**
 
 1. Create a commit with a message that includes the Jira key:
@@ -514,10 +574,9 @@ Now save your work with a Git commit.
    git commit -m "ECOM-1: add sales dashboard with KPIs and charts"
    ```
 
-   **Understanding the message format:**
-   - `ECOM-1:` — Links this commit to the Jira issue
-   - `add sales dashboard` — Describes what was added (use present tense)
-   - Keep it concise but descriptive
+   This format ensures:
+   - `ECOM-1:` — Links this commit to the Jira issue (for traceability)
+   - `add sales dashboard` — Describes what was added (present tense, lowercase)
 
 2. Verify the commit:
    ```bash
@@ -605,10 +664,18 @@ Normally, a team member would review your pull request. For this tutorial, you w
 
 ### 8.1 Review and Merge
 
+Before merging, review your own code using this checklist:
+
+**Self-Review Checklist:**
+- [ ] Does the code do what the Jira issue describes?
+- [ ] Did I test it? (Did the Streamlit dashboard run without errors?)
+- [ ] Are there any obvious mistakes or typos?
+- [ ] Is the commit message formatted correctly with the Jira key?
+
 **Steps:**
 
 1. On the pull request page in GitHub, review the "Files changed" tab
-2. Verify the code looks correct
+2. Verify the code looks correct (use the checklist above)
 3. Click **Merge pull request**
 4. Click **Confirm merge**
 5. Optionally, click **Delete branch** to clean up the feature branch
@@ -629,6 +696,10 @@ git pull origin main
 Your local main branch now includes the dashboard code.
 
 **Checkpoint:** Running `git log --oneline` on main shows your merged commit.
+
+**What just happened?** Your dashboard code is now part of the `main` branch — the "official" version of your project. In a real team environment, this code would be deployed to a server for users to access. The feature branch (`feature/ECOM-1-add-sales-dashboard`) is no longer needed and can be deleted.
+
+This completes the full development cycle: **Requirement → Plan → Code → Review → Merge**.
 
 ---
 

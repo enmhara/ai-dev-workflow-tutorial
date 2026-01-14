@@ -82,22 +82,22 @@ By the end of this tutorial, you will be able to:
 
 ## Tutorial Structure
 
-This tutorial is designed for two 100-minute sessions:
+This tutorial is designed for two 100-minute sessions. **Read documents in the numbered order shown.**
 
 ### Session 1: Setup & Foundation
 
-| Document | Description |
-|----------|-------------|
-| [Overview](docs/00-overview.md) | Tutorial objectives and what you'll build |
-| [Session 1: Setup](docs/01-session-1-setup.md) | Account creation and tool installation |
-| [Terminal Basics](docs/02-terminal-basics.md) | Essential command-line skills |
-| [Git Concepts](docs/03-git-concepts.md) | Version control fundamentals |
+| Order | Document | Description |
+|:-----:|----------|-------------|
+| 1 | [Overview](docs/00-overview.md) | Tutorial objectives and what you'll build |
+| 2 | [Session 1: Setup](docs/01-session-1-setup.md) | Account creation and tool installation |
+| — | [Terminal Basics](docs/02-terminal-basics.md) | *Reference:* Read if unfamiliar with command line |
+| — | [Git Concepts](docs/03-git-concepts.md) | *Reference:* Read if unfamiliar with version control |
 
 ### Session 2: Spec-Driven Workflow
 
-| Document | Description |
-|----------|-------------|
-| [Session 2: Workflow](docs/04-session-2-workflow.md) | Complete development workflow |
+| Order | Document | Description |
+|:-----:|----------|-------------|
+| 3 | [Session 2: Workflow](docs/04-session-2-workflow.md) | Complete development workflow |
 
 ### Reference Materials
 
@@ -106,6 +106,7 @@ This tutorial is designed for two 100-minute sessions:
 | [Troubleshooting](docs/05-troubleshooting.md) | Common issues and solutions |
 | [Next Steps](docs/06-next-steps.md) | Applying this workflow to your capstone |
 | [FAQ](docs/07-faq.md) | Frequently asked questions |
+| [Glossary](docs/08-glossary.md) | Key terms and definitions |
 
 ## Project Materials
 

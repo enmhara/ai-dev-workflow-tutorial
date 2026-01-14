@@ -349,6 +349,51 @@ This **traceability** is valuable because:
 6. **Push/Pull:** Sync between local and remote
 7. **Pull Request:** A proposal to merge changes
 
+## Practice Exercises (Optional)
+
+Before starting Session 2, try these exercises to get comfortable with Git commands. Use the tutorial repository you cloned in Session 1.
+
+### Exercise 1: Check Repository Status
+
+```bash
+git status
+```
+
+**What you should see:** A message saying "On branch main" and "nothing to commit, working tree clean" (or similar).
+
+### Exercise 2: Create a Practice Branch
+
+```bash
+git checkout -b practice/my-test-branch
+```
+
+**What you should see:** "Switched to a new branch 'practice/my-test-branch'"
+
+Verify with:
+```bash
+git branch
+```
+
+You should see `practice/my-test-branch` with an asterisk (*) next to it.
+
+### Exercise 3: Switch Back to Main
+
+```bash
+git checkout main
+```
+
+**What you should see:** "Switched to branch 'main'"
+
+### Exercise 4: Delete the Practice Branch
+
+```bash
+git branch -d practice/my-test-branch
+```
+
+**What you should see:** "Deleted branch practice/my-test-branch"
+
+**Congratulations!** You've practiced the basic Git commands you'll use in Session 2.
+
 ## Next Steps
 
 Now that you understand Git concepts, continue to [Session 2: Workflow](04-session-2-workflow.md) where you'll put these concepts into practice.

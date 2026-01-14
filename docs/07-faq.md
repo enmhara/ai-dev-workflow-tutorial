@@ -303,10 +303,55 @@ The best approach depends on your team and project.
 
 ---
 
+## How to Ask Claude for Help Effectively
+
+When asking Claude Code for help with problems, use this format for best results:
+
+### Good Problem Description Format
+
+```
+I'm trying to: [what you want to accomplish]
+
+What I did: [steps you took]
+
+What happened: [the actual result, including error messages]
+
+What I expected: [what you thought should happen]
+```
+
+### Example — Good Request
+
+> I'm trying to: run my Streamlit dashboard
+>
+> What I did: I ran `streamlit run app.py` in the terminal
+>
+> What happened: I got this error:
+> `ModuleNotFoundError: No module named 'pandas'`
+>
+> What I expected: The dashboard should open in my browser
+
+**Why this works**: Claude has all the context needed to diagnose the problem (missing pandas installation) and suggest the fix (`pip install pandas`).
+
+### Example — Poor Request
+
+> It doesn't work
+
+**Why this fails**: Claude doesn't know what "it" is, what you tried, or what error you saw. It has to ask follow-up questions, wasting time.
+
+### Tips for Getting Better Help
+
+1. **Copy the full error message** — Don't paraphrase errors
+2. **Mention the file you're working on** — "In app.py, line 15..."
+3. **Describe what you already tried** — Helps Claude avoid suggesting things you've done
+4. **Be specific about your goal** — "I want the chart to show monthly data, not daily"
+
+---
+
 ## If Your Question Isn't Here
 
-1. **Ask Claude Code**: "How do I [your question]?"
-2. **Check Troubleshooting**: [05-troubleshooting.md](05-troubleshooting.md)
-3. **Search online**: Error messages are usually searchable
-4. **Ask in Teams**: Post with context and what you've tried
-5. **Office hours**: For complex issues
+1. **Ask Claude Code**: Use the format above for best results
+2. **Check the Glossary**: [08-glossary.md](08-glossary.md) for term definitions
+3. **Check Troubleshooting**: [05-troubleshooting.md](05-troubleshooting.md) for common errors
+4. **Search online**: Error messages are usually searchable
+5. **Ask in Teams**: Post with context and what you've tried
+6. **Office hours**: For complex issues
