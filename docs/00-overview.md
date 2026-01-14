@@ -4,19 +4,23 @@
 
 ### The Most In-Demand Skill Set of 2026
 
-The software industry is undergoing its biggest transformation since the introduction of the internet. AI-assisted development has moved from experimental to essential. Companies are actively seeking developers who can work effectively with AI tools — and struggling to find them.
+Building with technology in 2026 looks fundamentally different than it did just two years ago. AI assistants have moved from experimental to essential. Companies are actively seeking professionals who can work effectively with AI tools to build solutions — and struggling to find them.
 
-**You are learning this skill now, at the beginning of your career.** This puts you ahead of many experienced developers who are still adapting.
+**This is not about becoming a software engineer — it's about being able to build solutions with technology and data.**
 
-Consider what AI-assisted development enables:
+Whether you become a business analyst, data scientist, product manager, consultant, or entrepreneur, you will need to build dashboards, automate workflows, create prototypes, and collaborate with technical teams. AI-assisted building makes all of this dramatically more accessible.
+
+**You are learning this skill now, at the beginning of your career.** This puts you ahead of many experienced professionals who are still adapting.
+
+Consider what AI-assisted building enables:
 
 | Traditional Approach | AI-Assisted Approach |
 |---------------------|---------------------|
 | Google for solutions, copy from Stack Overflow | Ask Claude Code to explain and implement |
 | Hours debugging with print statements | AI analyzes errors and suggests fixes |
-| Write boilerplate code manually | AI generates scaffolding, you focus on logic |
+| Write boilerplate code manually | AI generates scaffolding, you focus on business logic |
 | Learn frameworks by reading documentation | AI teaches you as you build |
-| Work alone, limited by your knowledge | AI as a knowledgeable pair programmer |
+| Work alone, limited by your knowledge | AI as a knowledgeable partner |
 
 ### The Professional Workflow You Will Master
 
@@ -48,11 +52,13 @@ This is not a toy exercise. You are:
 - Building a **real deliverable** (a working dashboard)
 - Learning **real skills** that transfer directly to your capstone and career
 
+These are not "student skills" — these are professional skills that set you apart in interviews and on the job, regardless of your specific role.
+
 ---
 
 ## Objective
 
-This tutorial establishes a complete, end-to-end, AI-assisted software development workflow that mirrors industry practice. By the end, you will be able to move from a tracked task to merged production-ready code using Cursor, Claude Code, GitHub, and Jira with explicit integrations and traceability.
+This tutorial establishes a complete, end-to-end, AI-assisted workflow for building technology solutions that mirrors industry practice. By the end, you will be able to move from a tracked task to a merged, production-ready solution using Cursor, Claude Code, GitHub, and Jira with explicit integrations and traceability.
 
 ## What You Will Build
 
@@ -143,7 +149,7 @@ Instead of jumping straight to code, you:
 
 This approach reduces wasted effort and produces better results.
 
-**Common mistake:** Developers who skip specification waste time building the wrong thing. AI amplifies this — you can build the wrong thing very fast. Spec-driven development ensures you build the right thing.
+**Common mistake:** Skipping specification wastes time building the wrong thing. AI amplifies this — you can build the wrong thing very fast. Spec-driven development ensures you build the right thing.
 
 ### AI as a Partner
 
@@ -235,8 +241,8 @@ The skills you learn here directly apply to:
 
 1. **Your Capstone Project**: Use this exact workflow with your team
 2. **Internships**: You'll be productive from day one
-3. **Full-time Roles**: This is how professional teams work
-4. **Personal Projects**: Build faster and better on your own
+3. **Any Role**: Business analysts, data scientists, product managers, consultants — all benefit from knowing how to build with AI and collaborate using professional tools
+4. **Personal Projects**: Build dashboards, automate workflows, and create solutions faster on your own
 
 ## Next Steps
 

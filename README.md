@@ -1,6 +1,6 @@
 # AI-Assisted Development Workflow Tutorial
 
-A hands-on tutorial for establishing a complete, end-to-end, AI-assisted software development workflow using Cursor, Claude Code, GitHub, and Jira.
+A hands-on tutorial for establishing a complete, end-to-end, AI-assisted workflow for building technology solutions using Cursor, Claude Code, GitHub, and Jira.
 
 ```
 ┌─────────┐    ┌──────────┐    ┌─────────┐    ┌────────┐
@@ -16,19 +16,25 @@ A hands-on tutorial for establishing a complete, end-to-end, AI-assisted softwar
 
 ### The Industry Has Changed
 
-Software development in 2026 looks fundamentally different than it did just two years ago. AI coding assistants have moved from novelty to necessity. Companies expect new hires to work effectively with AI tools, and those who can are dramatically more productive.
+Building with technology in 2026 looks fundamentally different than it did just two years ago. AI assistants have moved from novelty to necessity. Companies expect new hires to work effectively with AI tools, and those who can are dramatically more productive.
 
-**This is not about replacing developers — it's about amplifying them.**
+**This is not about becoming a software engineer — it's about being able to build solutions with technology and data.**
 
-Developers who use AI assistants effectively:
-- Ship features faster while maintaining quality
-- Spend less time on boilerplate and more on creative problem-solving
+Whether you become a business analyst, data scientist, product manager, consultant, or entrepreneur, you will need to:
+- Build dashboards and data applications
+- Automate workflows and processes
+- Create prototypes to test ideas
+- Collaborate with technical teams using shared tools
+
+Professionals who use AI assistants effectively:
+- Build solutions faster while maintaining quality
+- Spend less time on technical details and more on business problems
 - Debug issues more efficiently with AI-powered analysis
 - Learn new technologies faster with AI as a teaching partner
 
 ### Professional Workflows Create Professional Results
 
-Every successful software team follows a structured workflow. This isn't bureaucracy — it's how teams coordinate, maintain quality, and move quickly without breaking things.
+Every successful team building technology solutions follows a structured workflow. This isn't bureaucracy — it's how teams coordinate, maintain quality, and move quickly without breaking things.
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -47,21 +53,21 @@ Every successful software team follows a structured workflow. This isn't bureauc
 ```
 
 The workflow you learn in this tutorial is used at companies from startups to Fortune 500:
-- **GitHub** for code (used by 100M+ developers)
+- **GitHub** for version control (used by 100M+ developers and teams)
 - **Jira** for task tracking (used by 65K+ companies)
-- **Pull requests** for code review (industry standard)
+- **Pull requests** for review and collaboration (industry standard)
 - **Branch-based development** (universal practice)
 
 ### Your Competitive Advantage
 
-By completing this tutorial, you will have skills that many working developers are still acquiring:
+By completing this tutorial, you will have skills that set you apart:
 
-1. **AI-Assisted Development**: Using Claude Code as a thinking and implementation partner
-2. **Spec-Driven Development**: Turning requirements into code systematically
-3. **Full Traceability**: Connecting every line of code to a business requirement
+1. **AI-Assisted Building**: Using Claude Code as a thinking and implementation partner
+2. **Spec-Driven Development**: Turning requirements into working solutions systematically
+3. **Full Traceability**: Connecting every deliverable to a business requirement
 4. **Industry Tooling**: Hands-on experience with the tools companies actually use
 
-These are not "student skills" — these are professional skills that will set you apart in interviews and on the job.
+These are not "student skills" — these are professional skills that will set you apart in interviews and on the job, regardless of your specific role.
 
 ---
 
@@ -69,7 +75,7 @@ These are not "student skills" — these are professional skills that will set y
 
 By the end of this tutorial, you will be able to:
 
-- Move from a tracked task to merged production-ready code
+- Move from a tracked task to a merged, production-ready solution
 - Use Claude Code as a thinking and implementation assistant
 - Maintain full traceability: Jira issue → branch → commit → PR → merge
 - Apply spec-driven development using GitHub's spec-kit
@@ -110,7 +116,7 @@ This tutorial is designed for two 100-minute sessions:
 
 ## Prerequisites
 
-No prior experience with Git, Jira, or AI coding tools is required. You should have:
+No prior experience with Git, Jira, or AI tools is required. You should have:
 
 - A computer running macOS or Windows
 - Basic Python knowledge
@@ -120,11 +126,11 @@ No prior experience with Git, Jira, or AI coding tools is required. You should h
 
 | Tool | Purpose | Industry Context |
 |------|---------|------------------|
-| **GitHub** | Version control and code hosting | Used by 100M+ developers worldwide |
+| **GitHub** | Version control and collaboration | Used by 100M+ professionals worldwide |
 | **Jira** | Project and task management | Used by 65,000+ companies |
 | **Cursor** | AI-powered code editor | Leading AI-native IDE |
-| **Claude Code** | AI coding assistant (CLI) | State-of-the-art AI assistant |
-| **spec-kit** | Spec-driven development toolkit | Modern requirements-to-code workflow |
+| **Claude Code** | AI assistant (CLI) | State-of-the-art AI for building |
+| **spec-kit** | Spec-driven development toolkit | Modern requirements-to-solution workflow |
 
 ## Quick Start
 
