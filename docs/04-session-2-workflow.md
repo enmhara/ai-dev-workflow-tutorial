@@ -2,6 +2,38 @@
 
 This session covers the complete development workflow: from connecting Claude Code to Jira, through spec-driven planning, to building, committing, and merging code.
 
+## Table of Contents
+
+- [1. Connect Claude Code to Jira](#1-connect-claude-code-to-jira)
+  - [1.1 Add Atlassian MCP Server](#11-add-atlassian-mcp-server)
+- [2. Spec-Kit Workflow](#2-spec-kit-workflow)
+  - [2.1 Initialize Spec-Kit](#21-initialize-spec-kit)
+  - [2.2 Create the Constitution](#22-create-the-constitution)
+  - [2.3 Create the Specification](#23-create-the-specification)
+  - [2.4 Create the Implementation Plan](#24-create-the-implementation-plan)
+  - [2.5 Generate Tasks](#25-generate-tasks)
+- [3. Create Jira Issue](#3-create-jira-issue)
+- [4. Create Feature Branch](#4-create-feature-branch)
+- [5. Build the Dashboard with Claude Code](#5-build-the-dashboard-with-claude-code)
+  - [5.1 Set Up Python Environment](#51-set-up-python-environment)
+  - [5.2 Build the Dashboard](#52-build-the-dashboard)
+  - [5.3 Iterate and Improve](#53-iterate-and-improve)
+- [6. Commit Your Changes](#6-commit-your-changes)
+  - [6.1 Stage Your Changes](#61-stage-your-changes)
+  - [6.2 Create the Commit](#62-create-the-commit)
+- [7. Push and Create Pull Request](#7-push-and-create-pull-request)
+  - [7.1 Push Your Branch](#71-push-your-branch)
+  - [7.2 Create Pull Request](#72-create-pull-request)
+  - [7.3 Verify Jira Integration](#73-verify-jira-integration)
+- [8. Merge the Pull Request](#8-merge-the-pull-request)
+  - [8.1 Review and Merge](#81-review-and-merge)
+  - [8.2 Update Local Repository](#82-update-local-repository)
+- [9. Session 2 Verification](#9-session-2-verification)
+- [The Complete Workflow](#the-complete-workflow)
+- [What's Next](#whats-next)
+
+---
+
 ## What You Will Accomplish
 
 ```
