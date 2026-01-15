@@ -395,17 +395,10 @@ npm install -g @anthropic-ai/claude-code
 
 npm comes with Node.js. Install Node.js first:
 
-**macOS:**
-```bash
-curl -fsSL https://fnm.vercel.app/install | bash
-source ~/.bashrc  # or ~/.zshrc
-fnm install --lts
-```
-
-**Windows:**
 1. Go to [nodejs.org](https://nodejs.org)
-2. Download and install the LTS version
-3. Restart Cursor
+2. Download the **LTS** version (recommended for most users)
+3. Run the installer and follow the prompts
+4. Restart Cursor
 
 Then install Claude Code:
 ```bash
