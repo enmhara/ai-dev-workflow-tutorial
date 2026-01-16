@@ -154,6 +154,8 @@ First, initialize spec-kit in your project.
 specify init . --ai claude
 ```
 
+You may see a warning: "Current directory is not empty... Do you want to continue?" — type `y` and press **Enter/Return** to continue. This is expected because you cloned a repository that already has files.
+
 This creates the necessary configuration files for spec-kit to work with Claude Code, including the slash commands you will use in the following steps.
 
 **Checkpoint:** Verify the initialization succeeded:
