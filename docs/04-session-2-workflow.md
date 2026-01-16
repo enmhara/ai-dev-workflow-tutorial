@@ -213,18 +213,7 @@ The specification refines the PRD (Product Requirements Document — the documen
 
 1. In Claude Code, run:
    ```
-   /speckit.specify
-
-   Based on the PRD in prd/ecommerce-analytics.md, create a detailed specification for the sales dashboard.
-
-   The dashboard should have:
-   - 2 KPI cards at the top (Total Sales, Total Orders)
-     (KPI = Key Performance Indicator, a metric that shows important business data at a glance)
-   - A line chart showing sales trend over time
-   - A bar chart showing sales by category
-   - A bar chart showing sales by region
-
-   The data source is data/sales-data.csv
+   /speckit.specify @prd/ecommerce-analytics.md
    ```
 
 2. Claude will analyze the PRD and create a specification
