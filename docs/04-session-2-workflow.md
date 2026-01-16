@@ -571,8 +571,8 @@ Now repeat the cycle for each remaining Jira issue:
    - Tasks marked `[x]` in tasks.md
 
 > **🔁 Repeat steps 1-5 for each remaining Jira issue until all are complete.**
->
-> **Skip the deployment task for now.** If you have a Jira issue for deployment, leave it — we'll handle deployment in section 5 after merging to main.
+
+> ⚠️ **Skip the deployment task for now!** If you have a Jira issue for deployment, leave it — we'll handle deployment in section 5 after merging to main. You can't deploy until your code is on the `main` branch.
 
 > **Tip:** Watch Claude Code's output as it works. You'll see what files it creates, what commands it runs, and how it solves problems — it may even launch a virtual browser to test the application automatically. This is a great way to learn!
 >
