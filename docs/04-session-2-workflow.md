@@ -490,6 +490,12 @@ After completing the first issue, save your work and update Jira to show evidenc
    Push my changes to GitHub.
    ```
 
+   **View your branch on GitHub:**
+   - Go to your repository on GitHub
+   - Click the branch dropdown (it shows "main" by default)
+   - Select your feature branch (e.g., `001-sales-dashboard`)
+   - You'll see your committed files on this branch
+
 3. Update Jira with evidence of completion:
    ```
    Update ECOM-1 in Jira:
