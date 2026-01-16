@@ -270,6 +270,13 @@ The specification refines the PRD (Product Requirements Document — the documen
 
 The plan outlines how you will build the specification technically.
 
+> **What to include in your prompt:**
+> - **Technology preferences** — frameworks, languages, libraries you want to use
+> - **Coding standards** — patterns, conventions, or best practices to follow
+> - **Constraints** — any limitations like compatibility requirements or dependencies
+>
+> This guidance helps Claude generate a plan tailored to your preferences.
+
 **Steps:**
 
 1. In Claude Code, run:
