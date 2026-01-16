@@ -316,21 +316,15 @@ When multiple people work on the same codebase, coordination is key:
 
 ## 6. What to Submit
 
-Your capstone project will have multiple submission checkpoints throughout the semester. For each checkpoint, submit the following to Brightspace:
+**Due: January 28** — Submit the following to Brightspace under the **Capstone Project Development Environment** assignment:
 
 1. **GitHub repository link** — Your team's repo URL (e.g., `https://github.com/team/capstone-project`)
 
 2. **Jira board screenshot** — Screenshot of your Jira board showing:
-   - Issues in various states (To Do, In Progress, Done)
-   - Issues assigned to team members
+   - Your project name and key
+   - The board columns (To Do, In Progress, Done)
 
-3. **Completed Jira issue screenshot(s)** — For each completed issue, show:
-   - Issue status is "Done"
-   - Comment with implementation summary, commit hash, branch name, and GitHub link
-
-4. **Deployed application link** (when applicable) — Your live application URL
-
-> **Tip:** Keep your Jira board and GitHub repository updated as you work. This makes submission easy — you'll just need to take screenshots of work you've already documented.
+3. **PRD file screenshot** — Screenshot showing your PRD file exists in the `prd/` folder of your repository
 
 ---
 
