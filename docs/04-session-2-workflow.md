@@ -31,6 +31,7 @@ This session covers the complete development workflow: from connecting Claude Co
   - [7.3 Share Your Dashboard](#73-share-your-dashboard)
 - [8. Session 2 Verification](#8-session-2-verification)
 - [The Complete Workflow](#the-complete-workflow)
+- [What to Submit](#what-to-submit)
 - [What's Next](#whats-next)
 
 ---
