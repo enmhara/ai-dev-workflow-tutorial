@@ -571,6 +571,8 @@ Now repeat the cycle for each remaining Jira issue:
    - Tasks marked `[x]` in tasks.md
 
 > **🔁 Repeat steps 1-5 for each remaining Jira issue until all are complete.**
+>
+> **Skip the deployment task for now.** If you have a Jira issue for deployment, leave it — we'll handle deployment in section 5 after merging to main.
 
 > **Tip:** Watch Claude Code's output as it works. You'll see what files it creates, what commands it runs, and how it solves problems — it may even launch a virtual browser to test the application automatically. This is a great way to learn!
 >
@@ -584,7 +586,7 @@ You can also ask Claude to fix or improve things:
 The chart colors don't match our brand. Can you update them?
 ```
 
-**Checkpoint:** All Jira issues are marked "Done" with comments showing what was implemented and git info. All tasks marked `[x]` in tasks.md.
+**Checkpoint:** All implementation issues are marked "Done" with comments showing what was implemented and git info. All implementation tasks marked `[x]` in tasks.md. (Deployment task remains — we'll do that in section 5.)
 
 ---
 
