@@ -516,7 +516,7 @@ After completing the first issue, save your work and update Jira to show evidenc
 4. Verify in Jira:
    - Open ECOM-1 in your browser
    - Check the status shows "Done"
-   - Look for the comment with git info
+   - Look for the comment with what was implemented and the git info (commit hash, branch, GitHub link)
 
 **Checkpoint:** ECOM-1 shows status "Done" with a comment containing git info.
 
