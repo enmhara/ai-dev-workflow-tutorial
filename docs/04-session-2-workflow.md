@@ -419,26 +419,33 @@ Now use Claude Code to build the dashboard. This step will create multiple files
 
 **Steps:**
 
-1. First, update the Jira issue status to show you're starting work:
+1. Ask Claude which issue to start with:
+   ```
+   Which Jira issue should we implement first?
+   ```
+
+   Claude will review your tasks and recommend the first issue (likely ECOM-1).
+
+2. Update the Jira issue status to show you're starting work:
    ```
    Move ECOM-1 to In Progress in Jira
    ```
 
    Claude will use the Atlassian MCP to update the issue status.
 
-2. Now implement the first task:
+3. Now implement the first task:
    ```
    /speckit.implement
    ```
 
-3. Claude will automatically use your tasks file to:
+4. Claude will automatically use your tasks file to:
    - Analyze the CSV data structure
    - Create the dashboard code
    - Explain what each part does
 
-4. Review the generated code. Make sure you understand what it does.
+5. Review the generated code. Make sure you understand what it does.
 
-5. If Claude asks where to put the file, a common choice is:
+6. If Claude asks where to put the file, a common choice is:
    - `app.py` in the project root, or
    - `src/dashboard.py` in a source folder
 
