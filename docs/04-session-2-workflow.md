@@ -552,7 +552,12 @@ Now repeat the cycle for each remaining Jira issue:
 
 4. **Commit, push, and update Jira** (same as section 4.2):
    ```
-   Commit my changes for ECOM-2, push to GitHub, and update the Jira issue with a summary of what was implemented, commit hash, branch name, and GitHub link. Mark it Done.
+   Commit my changes for ECOM-2 and push to GitHub.
+
+   Update the Jira issue with:
+   - Summary of what was implemented
+   - Commit hash, branch name, and GitHub link
+   - Mark it Done
    ```
 
    *Replace `ECOM-2` with your actual issue key.*
