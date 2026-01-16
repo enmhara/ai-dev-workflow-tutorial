@@ -19,8 +19,7 @@ This session covers account creation, tool installation, and initial configurati
 - [3. Fork and Clone the Tutorial Repository](#3-fork-and-clone-the-tutorial-repository)
   - [3.1 Fork the Repository](#31-fork-the-repository)
   - [3.2 Clone Your Fork Locally](#32-clone-your-fork-locally)
-- [4. Connect GitHub and Jira](#4-connect-github-and-jira)
-- [5. Session 1 Verification](#5-session-1-verification)
+- [4. Session 1 Verification](#4-session-1-verification)
 - [Common Issues](#common-issues)
 - [What's Next](#whats-next)
 
@@ -44,7 +43,7 @@ This session covers account creation, tool installation, and initial configurati
 │  Integrations Configured:   Assets Ready:                   │
 │  ───────────────────────    ─────────────                   │
 │  • Claude Code in Cursor    • Forked tutorial repo          │
-│  • GitHub ↔ Jira            • Jira project (ECOM)           │
+│                             • Jira project (ECOM)           │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -464,39 +463,7 @@ Cloning downloads the repository to your computer. Cursor has a built-in feature
 
 ---
 
-## 4. Connect GitHub and Jira
-
-### 4.1 Install GitHub for Jira
-
-This integration connects your GitHub commits to Jira issues, providing full traceability.
-
-**Steps:**
-
-1. In Jira, click the **gear icon** (⚙️) in the top right
-2. Under "Jira admin settings", click **Marketplace apps**
-3. Click **Find new apps**
-4. Search for "GitHub for Jira"
-5. Find the official **GitHub for Jira** app by Atlassian
-6. Click **Get app**, then **Get it now**
-7. After installation, click **Get started**
-8. Click **Connect GitHub organization**
-9. Select **GitHub Cloud**
-10. You will be redirected to GitHub — authorize access
-11. Select the repositories to connect (choose your forked tutorial repo)
-12. Click **Install & Authorize**
-
-**Verify the connection:**
-
-1. Return to Jira
-2. Click **gear icon** (⚙️) → **Jira apps**
-3. Find GitHub for Jira and click **Configure**
-4. You should see your GitHub account and repository listed
-
-**Checkpoint:** The GitHub for Jira app shows your repository as connected.
-
----
-
-## 5. Session 1 Verification
+## 4. Session 1 Verification
 
 Before finishing Session 1, verify everything is set up correctly:
 
@@ -532,7 +499,6 @@ claude --version
 
 ### Jira
 - [ ] ECOM project exists in Jira
-- [ ] GitHub for Jira app is installed and connected
 
 ---
 
@@ -596,7 +562,6 @@ Session 1 is complete. You now have:
 - All tools installed and working
 - Tutorial repository forked and cloned
 - Jira project ready
-- GitHub and Jira connected
 
 In [Session 2](04-session-2-workflow.md), you will:
 

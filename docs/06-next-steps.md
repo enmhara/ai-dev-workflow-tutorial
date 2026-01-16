@@ -60,10 +60,6 @@ Use this checklist when setting up your actual capstone project. Each team membe
   - Create columns: To Do, In Progress, In Review, Done
   - Decide on sprint length if using Scrum
 
-- [ ] **Install GitHub for Jira** on the team project
-  - Connect to your capstone repository
-  - Test with a sample commit
-
 ### Development Environment
 
 - [ ] **Each team member** should have:

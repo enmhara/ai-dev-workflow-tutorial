@@ -201,7 +201,6 @@ By the end of Session 1, you will have:
 - Cursor installed with Claude Code configured
 - Git installed and configured
 - Python 3.11+ with uv and spec-kit installed
-- GitHub connected to Jira
 
 ### Session 2: Spec-Driven Workflow (100 minutes)
 
@@ -230,7 +229,6 @@ Use this checklist to verify your tutorial is complete:
 - [ ] spec-kit installed
 - [ ] Tutorial repo forked and cloned
 - [ ] Jira project created (ECOM)
-- [ ] GitHub for Jira app installed
 
 ### Session 2 Checkpoints
 - [ ] Atlassian MCP server connected

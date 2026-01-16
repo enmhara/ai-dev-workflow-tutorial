@@ -31,7 +31,6 @@ This guide covers common issues you may encounter and how to resolve them. Remem
   - [Pull request can't be merged — conflicts](#pull-request-cant-be-merged--conflicts)
 - [Jira Issues](#jira-issues)
   - [Can't create project — "Key already exists"](#cant-create-project--key-already-exists)
-  - [GitHub integration not showing in Jira](#github-integration-not-showing-in-jira)
 - [Claude Code Issues](#claude-code-issues)
   - [Authentication fails](#authentication-fails)
   - ["API rate limit exceeded"](#api-rate-limit-exceeded)
@@ -299,29 +298,6 @@ If you already pushed, ask Claude Code for help — the solution depends on your
 **Solution:**
 - Choose a different project key (e.g., ECOM2, MYECOM)
 - Update your commit messages to use the new key
-
----
-
-### GitHub integration not showing in Jira
-
-**Symptoms:**
-- No "Development" panel on Jira issues
-- Commits/PRs not linked
-
-**Solutions:**
-
-1. **Verify app is installed:**
-   - Jira Settings → Apps → Manage apps
-   - Find "GitHub for Jira"
-
-2. **Check repository connection:**
-   - Click Configure on the GitHub for Jira app
-   - Ensure your repository is selected
-
-3. **Wait a few minutes** — synchronization can be slow
-
-4. **Verify commit message format:**
-   - Must include Jira key: `ECOM-1: description`
 
 ---
 

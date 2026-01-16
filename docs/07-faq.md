@@ -185,21 +185,6 @@ For very small tasks (single function, quick fix), spec-kit might be overkill. F
 
 ## Integration Questions
 
-### Why connect GitHub to Jira?
-
-The integration provides:
-- **Traceability**: See which code relates to which task
-- **Visibility**: Project managers see progress without asking developers
-- **Automation**: Some actions can update Jira automatically
-- **Context**: Anyone can understand why code was written
-
-### What if the integration isn't working?
-
-1. Verify the GitHub for Jira app is installed in Jira
-2. Check that your repository is connected
-3. Ensure commit messages include the Jira key exactly (ECOM-1, not ecom-1)
-4. Wait a few minutes — sync isn't instant
-
 ### What is MCP (Model Context Protocol)?
 
 MCP is a protocol that allows Claude Code to connect to external services like Jira. With the Atlassian MCP, Claude can:
