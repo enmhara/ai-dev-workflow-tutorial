@@ -131,6 +131,8 @@ One team member creates the Jira project, then invites the rest of the team.
 
 In the tutorial, you used a provided PRD. For your capstone, you'll revise the PRD you submitted last semester.
 
+**Copy your existing PRD** to the `prd/` folder in your repo. This gives Claude Code access to your current requirements.
+
 ### Organize Your Notes
 
 To help you update your PRD, create a `notes/` directory in your repo to collect:
@@ -147,19 +149,19 @@ your-capstone-repo/
 │   ├── team-brainstorm.md
 │   └── feedback-summary.md
 ├── prd/
-│   └── your-project-name.md    ← Your PRD goes here
+│   └── your-project-name.md    ← Copy your existing PRD here
 ├── specs/                       ← spec-kit will create this
 └── ...
 ```
 
-### Creating Your PRD with Claude Code
+### Updating Your PRD with Claude Code
 
-Use Claude Code and reference your notes using the `@` symbol:
+Use Claude Code and reference your PRD and notes using the `@` symbol:
 
 ```
-Help me write a PRD based on @notes/sponsor-meeting-01.md and @notes/team-brainstorm.md
+Review @prd/your-project-name.md and update it based on @notes/sponsor-meeting-01.md and @notes/team-brainstorm.md
 
-Include:
+Make sure the PRD includes:
 - Problem statement
 - Target users
 - Key features with acceptance criteria
@@ -169,7 +171,7 @@ Include:
 You can also reference the entire notes directory:
 
 ```
-Review @notes/ and help me update my PRD with the key requirements discussed.
+Review @prd/your-project-name.md and @notes/ and help me update my PRD with the key requirements discussed.
 ```
 
 ### What a PRD Should Include
