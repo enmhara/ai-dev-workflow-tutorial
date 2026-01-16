@@ -659,14 +659,16 @@ If you have a Jira issue for deployment, let's complete it now.
 Follow these steps to deploy (Claude may guide you through this):
 
 1. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub
-2. Click **New app**
+2. Click **Create app**
 3. Select your repository: `[your-username]/ai-dev-workflow-tutorial`
-4. Set the **Main file path** to `app.py` (or wherever your dashboard file is located)
-5. Click **Deploy** and wait 1-2 minutes
+4. Select the **Branch**: `main`
+5. Set the **Main file path** to `app.py` (or wherever your dashboard file is located)
+6. (Optional) Set a custom **App URL** like `sales-dashboard-yourname` for a cleaner URL
+7. Click **Deploy** and wait 1-2 minutes
 
 Once deployed, you'll get a public URL like:
 ```
-https://[your-username]-ai-dev-workflow-tutorial-app-xxxxx.streamlit.app
+https://sales-dashboard-yourname.streamlit.app
 ```
 
 ### 5.3 Update Jira with Deployment Evidence
@@ -699,7 +701,8 @@ Verify everything is complete:
 
 ### Jira
 - [ ] Multiple issues created from spec-kit tasks (ECOM-1, ECOM-2, etc.)
-- [ ] All issues marked "Done" with git info comments
+- [ ] All issues marked "Done" with comments (implementation summary, commit hash, branch, GitHub link)
+- [ ] Tasks marked `[x]` in tasks.md
 
 ### Dashboard
 - [ ] Streamlit app runs locally
@@ -707,11 +710,15 @@ Verify everything is complete:
 - [ ] Line chart shows sales trend
 - [ ] Bar charts show category and region breakdowns
 
-### Version Control & Deployment
-- [ ] Commit message includes Jira key (ECOM-1)
+### Version Control
+- [ ] Commits include Jira issue keys
+- [ ] Feature branch merged to main
 - [ ] Code pushed to GitHub
+
+### Deployment
 - [ ] Dashboard deployed on Streamlit Community Cloud
 - [ ] Public URL accessible
+- [ ] Deployment Jira issue marked "Done" with live URL in comments
 
 ---
 
