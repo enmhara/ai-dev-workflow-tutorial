@@ -566,6 +566,8 @@ Now repeat the cycle for each remaining Jira issue:
 > **Tip:** Watch Claude Code's output as it works. You'll see what files it creates, what commands it runs, and how it solves problems — it may even launch a virtual browser to test the application automatically. This is a great way to learn!
 >
 > **Want to see the dashboard yourself?** Ask Claude: `How do I run the dashboard in my own browser?`
+>
+> **Suggested prompts:** Claude Code may suggest the next prompt to run — press **Tab** to accept it. While you're learning, it's good to write your own prompts so you understand the workflow. As you get comfortable, you can trust and accept the suggestions.
 
 You can also ask Claude to fix or improve things:
 
