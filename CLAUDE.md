@@ -39,3 +39,10 @@ The tutorial builds a sales dashboard with:
 - 2 bar charts (sales by category, sales by region)
 
 Data source: `data/sales-data.csv` with columns: date, order_id, product, category, region, quantity, unit_price, total_amount
+
+## Active Technologies
+- Python 3.11+ + Streamlit (web framework), Plotly (interactive charts), Pandas (data processing) (001-sales-dashboard)
+- Static CSV file (`data/sales-data.csv`) (001-sales-dashboard)
+
+## Recent Changes
+- 001-sales-dashboard: Added Python 3.11+ + Streamlit (web framework), Plotly (interactive charts), Pandas (data processing)
